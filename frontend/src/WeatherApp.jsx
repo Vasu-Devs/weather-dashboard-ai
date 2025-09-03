@@ -62,11 +62,11 @@ const WeatherApp = () =>{
             <div  className="p-4 rounded-lg border-2 border-zinc-600 text-zinc-400 font-sans font-medium flex flex-col justify-center items-center">
                 <h1>SUGGESTIONS FOR THE DAY</h1>
                 <div className="flex space-x-2 break-words">
-                    <div>
+{/*                     <div>
                         <p>Clothing: </p>
                         <p>Activity: </p>
                         <p>Precaution: </p>
-                    </div>
+                    </div> */}
                     <div>
                         <p>{weather.suggestions["clothing"]} </p>
                         <p>{weather.suggestions["activity"]} </p>
