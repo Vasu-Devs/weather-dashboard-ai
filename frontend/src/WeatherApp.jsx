@@ -1,6 +1,8 @@
 import { useState } from "react";
 import api from './api'
 
+console.log(import.meta.env.VITE_BACKEND_URL);
+
 const WeatherApp = () =>{
 
     const [city ,setCity] =useState("");
